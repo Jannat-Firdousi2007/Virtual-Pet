@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <title>Virtual Pet-1</title>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+      <script src="p5.play.js"></script>
+      <script src="food.js"></script>
+      
+     <!-- The core Firebase JS SDK is always required and must be listed first -->
+     <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCENdizJPDsOmuRroJxGUW5tvW6ZddZ2yk",
+    authDomain: "virtual-pet-2-main.firebaseapp.com",
+    databaseURL: "https://virtual-pet-2-main-default-rtdb.firebaseio.com",
+    projectId: "virtual-pet-2-main",
+    storageBucket: "virtual-pet-2-main.appspot.com",
+    messagingSenderId: "360820485671",
+    appId: "1:360820485671:web:a8c2af62b2b78f05562802"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+     
+      <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+      <marquee direction="left" bgcolor=rgb(46,139,87) behaviour = "slide">
+        <font size = "20" color = "white">
+          🐶 Make sure that you take care of your pet. 🐶
+        </font>
+      </marquee>
+      </marquee>
+      <script src="sketch.js"></script>
+    </body>
+  </html>
